@@ -1,6 +1,7 @@
 // Code your solutions in this file
 
 
+
 function writeCards(names,event) {
  let  giftarray = []
   for (let i = 0; i < names.length; i++)  {
@@ -10,11 +11,12 @@ function writeCards(names,event) {
 }
 
 
-function countdown(number) {
-  let num = 0
-  while (num <= number){
-    console.log(`${number - num}`)
-    num++
+
+
+function countdown( countdown ) {
+  while ( countdown > 0 ) {
+    console.log( countdown );
+    countdown -= 1;
   }
-  
+  console.log( countdown );
 }
